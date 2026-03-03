@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+database:
+  host: localhost
+  port: 5432
+  user: salon_crm
+  password: salon_crm_pass
+  name: salon_crm_db
+  sslmode: disable
+
+outbox:
+  interval: 5s
+  batch_size: 100
