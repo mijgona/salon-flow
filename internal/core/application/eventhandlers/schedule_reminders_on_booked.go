@@ -2,10 +2,11 @@ package eventhandlers
 
 import (
 	"context"
+	"time"
+
 	"github.com/mijgona/salon-crm/internal/core/domain/model/scheduling"
 	"github.com/mijgona/salon-crm/internal/core/ports"
 	"github.com/mijgona/salon-crm/internal/pkg/ddd"
-	"time"
 )
 
 // ScheduleRemindersOnBookedHandler schedules notification reminders when an appointment is booked.
