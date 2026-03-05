@@ -2,12 +2,13 @@ package eventhandlers
 
 import (
 	"context"
+	"time"
+
 	"github.com/mijgona/salon-crm/internal/core/domain/model"
 	"github.com/mijgona/salon-crm/internal/core/domain/model/client"
 	"github.com/mijgona/salon-crm/internal/core/domain/model/scheduling"
 	"github.com/mijgona/salon-crm/internal/core/ports"
 	"github.com/mijgona/salon-crm/internal/pkg/ddd"
-	"time"
 
 	"github.com/shopspring/decimal"
 )
